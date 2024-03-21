@@ -1,0 +1,16 @@
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px,
+);
+
+// _variables.scss
+
+$secondary-color: #d92f00;
+$primary-color: #0074d9;
+$font-size-medium: 16px;
+$font-size-large: 20px;
+$spacing-unit: 8px;

@@ -1,0 +1,14 @@
+@import 'bootstrap/scss/_functions';
+@import 'bootstrap/scss/_variables';
+@import 'bootstrap/scss/mixins/_breakpoints';
+@import '~rfs/scss';
+@import '../../../styles/variables';
+
+.home {
+    font-size: rfs-value(20px);
+    color: red;
+
+    @include media-breakpoint-down(sm) {
+        color: blue;
+    }
+}

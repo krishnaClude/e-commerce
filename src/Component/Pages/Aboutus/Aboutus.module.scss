@@ -1,0 +1,52 @@
+@import 'bootstrap/scss/_functions';
+@import 'bootstrap/scss/_variables';
+@import 'bootstrap/scss/mixins/_breakpoints';
+@import '~rfs/scss';
+@import '../../../styles/variables';
+
+.container {
+    margin-top: 50px;
+    .wrapper {
+        background-color: #ffffffc7;
+    }
+
+    .about-left-container {
+        background-color: #ffffffc7;
+        border-radius: 20px;
+        padding: 20px;
+
+        .abtTitle {
+            color: rgb(228, 125, 15);
+        }
+        .abtheadline {
+            font-size: rfs-value(24px);
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .abtcotent {
+            font-size: rfs-value(12px);
+        }
+    }
+    .about-right-container {
+        padding-left: 30px;
+    }
+    .abtImage {
+        width: 100%;
+    }
+    .abt-counter-container {
+        background-color: rgba(255, 255, 255, 0.7803921569);
+        margin-top: 20px;
+        border-radius: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        .abtCounter {
+            background-color: rgb(195 198 201 / 21%);
+            margin: 5px;
+            padding: 10px;
+            border-radius: 10px;
+            p {
+                font-size: rfs-value(10px);
+            }
+        }
+    }
+}
